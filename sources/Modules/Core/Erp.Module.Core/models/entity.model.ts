@@ -1,3 +1,12 @@
 export class Entity {
+    constructor(
+        
+
+        
+
+
+    ) {
+
+    }       
     
 }

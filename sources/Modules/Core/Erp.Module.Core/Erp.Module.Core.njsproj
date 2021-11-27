@@ -51,12 +51,19 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="models\customer.ts">
-      <SubType>Code</SubType>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="models\user.ts">
-      <SubType>Code</SubType>
-    </TypeScriptCompile>
+    <TypeScriptCompile Include="models\content.model.ts" />
+    <TypeScriptCompile Include="models\country.model.ts" />
+    <TypeScriptCompile Include="models\cpfCnpj.model.ts" />
+    <TypeScriptCompile Include="models\customer.model.ts" />
+    <TypeScriptCompile Include="models\district.model.ts" />
+    <TypeScriptCompile Include="models\entity.model.ts" />
+    <TypeScriptCompile Include="models\entityType.model.ts" />
+    <TypeScriptCompile Include="models\erpConstants.model.ts" />
+    <TypeScriptCompile Include="models\media.model.ts" />
+    <TypeScriptCompile Include="models\user.model.ts" />
+    <TypeScriptCompile Include="models\widget.model.ts" />
+    <TypeScriptCompile Include="models\widgetInstanceIds.model.ts" />
+    <TypeScriptCompile Include="models\widgetZone.model.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
